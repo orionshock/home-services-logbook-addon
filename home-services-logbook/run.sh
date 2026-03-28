@@ -24,7 +24,7 @@ export APP_UPLOADS_DIR="${APP_DATA_DIR}/uploads"
 export APP_DB_PATH="${APP_DATA_DIR}/logbook.db"
 
 export USE_UPSTREAM_AUTH=true
-export UPSTREAM_ACTOR_HEADER=X-Remote-User
+export UPSTREAM_ACTOR_HEADER=X-Remote-User-Name
 
 export USE_UPSTREAM_ROOT_PATH=true
 export UPSTREAM_ROOT_PATH_HEADER=X-Ingress-Path
@@ -37,4 +37,4 @@ exec uvicorn app.main:app \
     --host 0.0.0.0 \
     --port 8000 \
     --proxy-headers \
-    --forwarded-allow-ips="*"
+    --forwarded-allow-ips="172.30.32.2"

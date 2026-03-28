@@ -1,0 +1,7 @@
+configuration:
+  allow_session_user_override:
+    name: Allow session user override
+    description: Allow temporarily switching the in-app user the browser session. Defaults to Off.
+  data_dir:
+    name: Data directory
+    description: Base directory used for storing the database and uploaded files. Defaults to /data inside the container.

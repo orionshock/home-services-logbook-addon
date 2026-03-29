@@ -1,27 +1,34 @@
-# Home Services Logbook — Home Assistant Add-on Repository
+# Orionshock's Add-ons for Home Assistant
 
-This repository is the [Home Assistant Add-on](https://www.home-assistant.io/addons/) repository for **Home Services Logbook**, a simple self-hosted web app for keeping a household service history in one place.
+This repo is where I publish custom add-ons for Home Assistant.
 
-The application source lives at <https://github.com/orionshock/HomeServicesLogbook>.
+---
 
 ## Add-ons in this repository
 
-| Add-on | Description |
+| Add-on | What it does |
 |---|---|
-| [Home Services Logbook](home-services-logbook/README.md) | Track vendors, service entries, attachments, and labels for your home. |
+| [Home Services Logbook](home-services-logbook/README.md) | Keep track of home maintenance, service history, vendors, and attachments in one place. |
 
-## Installation
+More stuff will show up here as I build it.
 
-1. Open Home Assistant and navigate to **Settings → Add-ons → Add-on Store**.
-2. Click the **⋮** menu (top-right) and select **Repositories**.
-3. Paste the following URL and click **Add**:
-   ```
+---
+
+## How to install
+
+1. In Home Assistant, go to Settings → Add-ons → Add-on Store
+2. Click the ⋮ (top right) → Repositories
+3. Add this repo:
+
    https://github.com/orionshock/home-services-logbook-addon
-   ```
-4. Refresh the page — the **Home Services Logbook** add-on will appear in the store.
-5. Click **Install**, then **Start**.
 
-## Support
+4. Refresh the store  
+5. Install whatever looks useful 👍
 
-- Add-on issues: <https://github.com/orionshock/home-services-logbook-addon/issues>
-- Application issues: <https://github.com/orionshock/HomeServicesLogbook/issues>
+---
+
+## Issues / Feedback
+
+If something’s broken or you’ve got an idea:
+
+- https://github.com/orionshock/home-services-logbook-addon/issues
